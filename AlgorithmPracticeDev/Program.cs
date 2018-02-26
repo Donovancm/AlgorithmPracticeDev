@@ -9,6 +9,7 @@ namespace AlgorithmPracticeDev
         {
             //Executing different kinds of algorithm in here
             //LinearS.LinearPrint();
+            //Benny was here!
             BinaryS.BinaryPrint();
         }
     }
