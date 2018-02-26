@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AlgorithmPracticeDev.Unit_1;
+using System;
 
 namespace AlgorithmPracticeDev
 {
@@ -6,8 +7,9 @@ namespace AlgorithmPracticeDev
     {
         static void Main(string[] args)
         {
-            //commit 2
-            Console.WriteLine("Hello World!");
+            //Executing different kinds of algorithm in here
+            //LinearS.LinearPrint();
+            BinaryS.BinaryPrint();
         }
     }
 }
