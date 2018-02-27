@@ -1,4 +1,5 @@
 ﻿using AlgorithmPracticeDev.Unit_1;
+using AlgorithmPracticeDev.Unit_2;
 using System;
 
 namespace AlgorithmPracticeDev
@@ -10,7 +11,8 @@ namespace AlgorithmPracticeDev
             //Executing different kinds of algorithm in here
             //LinearS.LinearPrint();
             //Benny was here!
-            BinaryS.BinaryPrint();
+            //BinaryS.BinaryPrint();
+            InsertionS.InsertionPrint();
         }
     }
 }
