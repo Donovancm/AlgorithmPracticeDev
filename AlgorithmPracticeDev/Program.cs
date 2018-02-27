@@ -13,7 +13,8 @@ namespace AlgorithmPracticeDev
             //Benny was here!
             //BinaryS.BinaryPrint();
             //InsertionS.InsertionPrint();
-            BubbleS.BubblePrint();
+            //BubbleS.BubblePrint();
+            MergeS.MergeSortPrint();
         }
     }
 }

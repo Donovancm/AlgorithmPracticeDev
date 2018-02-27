@@ -38,3 +38,49 @@ namespace AlgorithmPracticeDev.Unit_2
         }
     }
 }
+//static void MergeSort(int[] array)
+//    {
+//        int[] result = MergeSort(array, 0, array.Length);
+//        Array.Copy(result, array, result.Length);
+//    }
+
+//    static int[] MergeSort(int[] array, int start, int end)
+//    {
+//        // Fase 1 - Split
+//        if (end - start < 2)
+//            return new int[] { array[start] };
+
+//        int middle = start + ((end - start) / 2);
+//        int[] left = MergeSort(array, start, middle);
+//        int[] right = MergeSort(array, middle, end);
+
+//        // Fase 2 - Sort and Merge
+//        int[] result = new int[left.Length + right.Length];
+
+//        int idxL = 0;
+//        int idxR = 0;
+//        int i = 0;
+
+//        for (; idxL < left.Length && idxR < right.Length; i++)
+//        {
+//            if (left[idxL] < right[idxR])
+//            {
+//                result[i] = left[idxL];
+//                idxL++;
+//            }
+//            else
+//            {
+//                result[i] = right[idxR];
+//                idxR++;
+//            }
+//        }
+
+//        // copy remaining elements
+//        while (idxL < left.Length)
+//            result[i++] = left[idxL++];
+
+//        while (idxR < right.Length)
+//            result[i++] = right[idxR++];
+
+//        return result;
+//    }
