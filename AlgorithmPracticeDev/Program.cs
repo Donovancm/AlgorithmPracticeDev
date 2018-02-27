@@ -12,7 +12,8 @@ namespace AlgorithmPracticeDev
             //LinearS.LinearPrint();
             //Benny was here!
             //BinaryS.BinaryPrint();
-            InsertionS.InsertionPrint();
+            //InsertionS.InsertionPrint();
+            BubbleS.BubblePrint();
         }
     }
 }
