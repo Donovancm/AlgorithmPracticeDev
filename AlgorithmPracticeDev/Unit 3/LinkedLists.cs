@@ -8,7 +8,6 @@ namespace AlgorithmPracticeDev.Unit_3
     {
         public LinkedListNode<Node> listNode;
 
-
         public static LinkedList<Node> LinkedListInsert(LinkedList<Node> listNode, Node node)
         {
             Console.WriteLine("Node List Input");
@@ -115,7 +114,7 @@ namespace AlgorithmPracticeDev.Unit_3
 
             //LinkedListInsert(listNode, new Node(30));
             //LinkedListSearch(listNode, new Node(45));
-            LinkedListDelete(listNode, new Node(21));
+            //LinkedListDelete(listNode, new Node(21));
 
         }
     }
