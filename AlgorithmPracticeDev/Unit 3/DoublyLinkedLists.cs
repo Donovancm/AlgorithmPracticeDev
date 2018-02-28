@@ -6,33 +6,33 @@ namespace AlgorithmPracticeDev.Unit_3
 {
     class DoublyLinkedLists
     {
-        public static void InsertAfter(DoublyLinkedList list, Node node, Node newNode)
+        public static void InsertAfter(DoublyLinkedList list, DLinkedNode node, DLinkedNode newNode)
         {
-            //newNode.prev = node;
-            //newNode = node.next;
-            //if (node.next == null)
-            //{
-            //    list.lastNode = newNode;
-            //}
-            //else
-            //{
-            //    node.next.prev = newNode;
-            //}
-            //node.next = newNode;
+            newNode.prev = node;
+            newNode = node.next;
+            if (node.next == null)
+            {
+                list.lastNode = newNode;
+            }
+            else
+            {
+                node.next.prev = newNode;
+            }
+            node.next = newNode;
         }
-        public static void InsertBefore(DLinkedNode list, Node node, Node newNode)
-        {
-
-        }
-        public static void InsertBeginning(DLinkedNode list, Node newNode)
+        public static void InsertBefore(DoublyLinkedList list, DLinkedNode node, DLinkedNode newNode)
         {
 
         }
-        public static void Insertlast(DLinkedNode list, Node newNode)
+        public static void InsertBeginning(DoublyLinkedList list, DLinkedNode newNode)
         {
 
         }
-        public static void RemoveNode(DLinkedNode list, Node node)
+        public static void Insertlast(DoublyLinkedList list, DLinkedNode newNode)
+        {
+
+        }
+        public static void RemoveNode(DoublyLinkedList list, DLinkedNode node)
         {
 
         }
@@ -43,8 +43,14 @@ namespace AlgorithmPracticeDev.Unit_3
         public class DLinkedNode
         {
             public int data;
-            public DLinkedNode next;
-            public DLinkedNode prev;
+            public DLinkedNode next = null;
+            public DLinkedNode prev = null;
+            public DLinkedNode(int data, DLinkedNode next, DLinkedNode prev)
+            {
+                this.data = data;
+                this.next = next;
+                this.prev = prev;
+            }
         }
         public class DoublyLinkedList
         {
