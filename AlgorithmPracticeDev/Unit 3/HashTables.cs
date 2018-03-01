@@ -40,28 +40,6 @@ namespace AlgorithmPracticeDev.Unit_3
             {
                 Console.WriteLine("key:{0}, value:{1}", item.Key, item.Value);
             }
-
-
-
-            //Console.WriteLine("------------------");
-            //Console.WriteLine("Print function peek");
-            //Console.WriteLine(list.Peek().data);
-            //Console.WriteLine("------------------");
-            //Console.WriteLine("Print node that wil be dequeued");
-            //Console.WriteLine(list.Dequeue().data);
-            //Console.WriteLine("------------------");
-            //Console.WriteLine("Print list after dequeued a node");
-            //foreach (var node in list)
-            //{
-            //    Console.WriteLine(node.data);
-            //}
-            ////SLinkedNode node6 = new SLinkedNode(99);
-            //list.Enqueue(node6);
-            //Console.WriteLine("Print new list of enqueued nodes");
-            //foreach (var node in list)
-            //{
-            //    Console.WriteLine(node.data);
-            //}
         }
     }
 }
