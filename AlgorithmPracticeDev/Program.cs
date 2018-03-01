@@ -17,7 +17,8 @@ namespace AlgorithmPracticeDev
             //BubbleS.BubblePrint();
             //MergeS.MergeSortPrint();
             //LinkedLists.LinkedListPrint(); // I am here
-            DoublyLinkedLists.DoublyLinkedListPrint();
+            //DoublyLinkedLists.DoublyLinkedListPrint();
+            Stacks.StackListPrint();
         }
     }
 }
