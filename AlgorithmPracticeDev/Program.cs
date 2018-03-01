@@ -18,7 +18,8 @@ namespace AlgorithmPracticeDev
             //MergeS.MergeSortPrint();
             //LinkedLists.LinkedListPrint(); // I am here
             //DoublyLinkedLists.DoublyLinkedListPrint();
-            Stacks.StackListPrint();
+            //Stacks.StackListPrint();
+            Queues.QueueListPrint();
         }
     }
 }
