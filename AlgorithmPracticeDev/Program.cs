@@ -19,7 +19,8 @@ namespace AlgorithmPracticeDev
             //LinkedLists.LinkedListPrint(); // I am here
             //DoublyLinkedLists.DoublyLinkedListPrint();
             //Stacks.StackListPrint();
-            Queues.QueueListPrint();
+            //Queues.QueueListPrint();
+            HashTables.HashTablesPrint();
         }
     }
 }
