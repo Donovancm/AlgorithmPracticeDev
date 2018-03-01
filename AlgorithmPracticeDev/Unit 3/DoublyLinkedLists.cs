@@ -6,6 +6,7 @@ namespace AlgorithmPracticeDev.Unit_3
 {
     class DoublyLinkedLists
     {
+        public static DoublyLinkedList list;
         public static void InsertAfter(DoublyLinkedList list, DLinkedNode node, DLinkedNode newNode)
         {
             newNode.prev = node;
@@ -22,11 +23,32 @@ namespace AlgorithmPracticeDev.Unit_3
         }
         public static void InsertBefore(DoublyLinkedList list, DLinkedNode node, DLinkedNode newNode)
         {
-
+            newNode.next = node;
+            if (node.prev == null)
+            {
+                newNode.prev = null;
+                list.firstNode = newNode;
+            }
+            else
+            {
+                newNode.prev = node.prev;
+                node.prev.next = newNode;
+            }
+            node.prev = newNode;
         }
         public static void InsertBeginning(DoublyLinkedList list, DLinkedNode newNode)
         {
-
+            if (list.firstNode == null)
+            {
+                list.firstNode = newNode;
+                list.lastNode = newNode;
+                newNode.prev = null;
+                newNode.next = null;
+            }
+            else
+            {
+                InsertBefore(list, list.firstNode, newNode);
+            }
         }
         public static void Insertlast(DoublyLinkedList list, DLinkedNode newNode)
         {
@@ -38,24 +60,47 @@ namespace AlgorithmPracticeDev.Unit_3
         }
         public static void DoublyLinkedListPrint()
         {
+            //insert node
+            list = new DoublyLinkedList();
+            DLinkedNode node1 = new DLinkedNode(22);
+            DLinkedNode node2 = new DLinkedNode(33);
+            DLinkedNode node3 = new DLinkedNode(44);
+            DLinkedNode node4 = new DLinkedNode(55);
+            InsertBeginning(list, node1);
+            InsertAfter(list, list.firstNode, node2);
+            InsertAfter(list, node2, node3);
+            InsertAfter(list, node3, node4);
+
+            var p = list.firstNode;
+            while (p.next !=null)
+            {
+                Console.WriteLine("value: "+ p.data);
+                p = p.next;
+            }
 
         }
         public class DLinkedNode
         {
             public int data;
-            public DLinkedNode next = null;
-            public DLinkedNode prev = null;
+            public DLinkedNode next { get; set; }
+            public DLinkedNode prev { get; set; }
             public DLinkedNode(int data, DLinkedNode next, DLinkedNode prev)
             {
                 this.data = data;
                 this.next = next;
                 this.prev = prev;
             }
+            public DLinkedNode(int data)
+            {
+                this.data = data;
+            }
         }
         public class DoublyLinkedList
         {
-            DLinkedNode firstNode;
-            DLinkedNode lastNode;
+            public DLinkedNode firstNode;
+            public DLinkedNode lastNode;
+
+
         }
     }
 }
