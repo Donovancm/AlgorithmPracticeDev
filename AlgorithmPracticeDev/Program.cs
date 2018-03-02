@@ -22,7 +22,8 @@ namespace AlgorithmPracticeDev
             //Stacks.StackListPrint();
             //Queues.QueueListPrint();
             //HashTables.HashTablesPrint();
-            BFS.BFSAlgorithmPrint();
+            //BFS.BFSAlgorithmPrint();
+            DFS.DFSAlgorithmPrint();
         }
     }
 }
