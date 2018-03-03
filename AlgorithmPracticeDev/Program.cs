@@ -1,6 +1,7 @@
 ﻿using AlgorithmPracticeDev.Unit_1;
 using AlgorithmPracticeDev.Unit_2;
 using AlgorithmPracticeDev.Unit_3;
+using AlgorithmPracticeDev.Unit_4;
 using AlgorithmPracticeDev.Unit_5;
 using AlgorithmPracticeDev.Unit_6;
 using System;
@@ -26,7 +27,8 @@ namespace AlgorithmPracticeDev
             //BFS.BFSAlgorithmPrint();
             // DFS.DFSAlgorithmPrint();
             //Dijkstra.DijkstraPrint();
-            FloydWarschall.FloydWarschallPrint();
+            //FloydWarschall.FloydWarschallPrint();
+            BinarySearchTrees.BinarySearchTreesPrint();
         }
     }
 }
