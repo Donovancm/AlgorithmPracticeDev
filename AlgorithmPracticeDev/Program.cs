@@ -2,6 +2,7 @@
 using AlgorithmPracticeDev.Unit_2;
 using AlgorithmPracticeDev.Unit_3;
 using AlgorithmPracticeDev.Unit_5;
+using AlgorithmPracticeDev.Unit_6;
 using System;
 
 namespace AlgorithmPracticeDev
@@ -24,7 +25,8 @@ namespace AlgorithmPracticeDev
             //HashTables.HashTablesPrint();
             //BFS.BFSAlgorithmPrint();
             // DFS.DFSAlgorithmPrint();
-            Dijkstra.DijkstraPrint();
+            //Dijkstra.DijkstraPrint();
+            FloydWarschall.FloydWarschallPrint();
         }
     }
 }
