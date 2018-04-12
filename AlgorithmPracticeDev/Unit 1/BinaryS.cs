@@ -10,7 +10,7 @@ namespace AlgorithmPracticeDev.Unit_1
         {
             int[] data = new int[] { 10, 11, 12, 14, 19, 25, 35, 40 };
             BinaryS.BinarySearch(data, 0, 7, 12);
-            int result = BinaryS.BinarySearchIterative(data, 14);
+            int result = BinaryS.BinarySearchIterative(data, 40);
             if (result == -1)
             {
                 Console.WriteLine("Number not found");
