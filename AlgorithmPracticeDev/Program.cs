@@ -15,7 +15,7 @@ namespace AlgorithmPracticeDev
             //Executing different kinds of algorithm in here
             //LinearS.LinearPrint();
             //Benny was here!
-            //BinaryS.BinaryPrint();
+            BinaryS.BinaryPrint();
             //InsertionS.InsertionPrint();
             //BubbleS.BubblePrint();
             //MergeS.MergeSortPrint();
@@ -28,7 +28,7 @@ namespace AlgorithmPracticeDev
             // DFS.DFSAlgorithmPrint();
             //Dijkstra.DijkstraPrint();
             //FloydWarschall.FloydWarschallPrint();
-            BinarySearchTrees.BinarySearchTreesPrint();
+            //BinarySearchTrees.BinarySearchTreesPrint();
         }
     }
 }

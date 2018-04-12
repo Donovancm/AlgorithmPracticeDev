@@ -45,13 +45,13 @@ namespace AlgorithmPracticeDev.Unit_1
 
             }
         }
-        public static int LinearSearch(int[] data, int item, int start)
+        public static int LinearSearch(int[] data, int value, int start)
         {
-            int N = data.Length;
+            int number = data.Length;
             if (start < 0)
                 return -1;
-            for (int i = start; i < N; i++)
-                if (data[i] == item)
+            for (int i = start; i < number; i++)
+                if (data[i] == value)
                     return i;
             return -1;
         }
