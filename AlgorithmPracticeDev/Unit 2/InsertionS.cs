@@ -34,7 +34,6 @@ namespace AlgorithmPracticeDev.Unit_2
         {
             int[] data = new int[] { 19, 13, 11, 14, 9, 96, 1, 40, 95, 41, 90 };
             InsertionSort(data);
-
         }
     }
 }

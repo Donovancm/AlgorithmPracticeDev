@@ -13,7 +13,7 @@ namespace AlgorithmPracticeDev.Unit_2
             {
                 Console.WriteLine(data[a]);
             }
-            for (int i = data.Length - 1; i > 0; i--)
+            for (int i = data.Length; i > 0; i--)
             {
                 int temp;
                 for (int j = 0; j < (i-1); j++)
@@ -28,14 +28,14 @@ namespace AlgorithmPracticeDev.Unit_2
                 }
             }
             Console.WriteLine("Integer Array Output");
-            for (int e = 0; e < data.Length - 1; e++)
+            for (int e = 0; e < data.Length; e++)
             {
                 Console.WriteLine(data[e]);
             }
         }
         public static void BubblePrint()
         {
-            int[] data = new int[] { 19, 13, 11, 14, 9, 96, 1, 40 };
+            int[] data = new int[] { 19, 13, 11, 14, 22, 39, 45, 9, 96, 1, 40 };
             BubbleSort(data);
         }
     }
