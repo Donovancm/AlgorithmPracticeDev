@@ -17,7 +17,7 @@ namespace AlgorithmPracticeDev.Unit_1
             }
             else
             {
-                Console.WriteLine("Number found at " + "index " + result);
+                Console.WriteLine("Number found at "+ "index " + result);
             }
         }
         public static void BinarySearch(int[] data, int low, int high, int target)

@@ -17,6 +17,7 @@ namespace AlgorithmPracticeDev.Unit_3
             list.Push(node2);
             list.Push(node3);
             list.Push(node4);
+            
 
             Console.WriteLine("Print list of pushed nodes");
             foreach (var node in list)

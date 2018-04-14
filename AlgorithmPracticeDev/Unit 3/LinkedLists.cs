@@ -8,6 +8,7 @@ namespace AlgorithmPracticeDev.Unit_3
     {
         public LinkedListNode<Node> listNode;
 
+        //Linked list insertion
         public static LinkedList<Node> LinkedListInsert(LinkedList<Node> listNode, Node node)
         {
             Console.WriteLine("Node List Input");
@@ -34,6 +35,7 @@ namespace AlgorithmPracticeDev.Unit_3
             }
             return listNode;
         }
+        //Linked list Search
         public static LinkedList<Node> LinkedListSearch(LinkedList<Node> listNode, Node node)
         {
             if (listNode.First != null && listNode.First.Value.value == node.value)
@@ -60,6 +62,8 @@ namespace AlgorithmPracticeDev.Unit_3
             }
             return listNode;
         }
+
+        //Linked list Delete
         public static LinkedList<Node> LinkedListDelete(LinkedList<Node> listNode, Node node)
         {
             Console.WriteLine("Node List Input");

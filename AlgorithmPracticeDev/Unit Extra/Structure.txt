@@ -1,0 +1,18 @@
+﻿	Sample
+1	Doubly linked list InsertAfter
+2	HashTable Add New key,value pair
+3	Bubble Sort
+4	Binary Tree Search
+5	Dijkstra
+	2
+1	Linked List Search
+2	HashTable Search
+3	Insertion Sort
+4	Binary Search Tree Add
+5	Floyd-Warschall
+	3
+1	Doubly Linked List
+2	Hash Table Remove
+3	Merge Sort
+4	BST Traversal
+5	DFS

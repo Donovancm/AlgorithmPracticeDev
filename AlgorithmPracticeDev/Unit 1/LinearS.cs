@@ -42,6 +42,7 @@ namespace AlgorithmPracticeDev.Unit_1
                     Console.WriteLine("Item {0} not found", searchItem);
                 else
                     Console.WriteLine("Item {0} found at index {1}", searchItem, foundPos);
+                break;
 
             }
         }
@@ -49,10 +50,16 @@ namespace AlgorithmPracticeDev.Unit_1
         {
             int number = data.Length;
             if (start < 0)
+            {
                 return -1;
+            }
             for (int i = start; i < number; i++)
+            {
                 if (data[i] == value)
+                {
                     return i;
+                }
+            }
             return -1;
         }
     }
