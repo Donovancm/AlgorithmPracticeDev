@@ -42,12 +42,10 @@ namespace AlgorithmPracticeDev.Unit_2
             int[] arr2 = new int[right - middle];
             for (i = 0, k = left; i < arr1.Length; i++, k++)
             {
-                //TODO: EX 3.1 arr1[i] = ?;
                 arr1[i] = arr[k];
             }
             for (j = 0, k = middle + 1; j < arr2.Length; j++, k++)
             {
-                //TODO: EX 3.2 arr2[j] = ?;
                 arr2[j] = arr[k];
             }
             i = j = 0;
@@ -61,12 +59,10 @@ namespace AlgorithmPracticeDev.Unit_2
             }
             if (i == arr1.Length)
             {
-                //TODO: EX 3.3
                 arr[k++] = arr2[j++];
             }
             else
             {
-                //TODO: EX 3.4
                 arr[k++] = arr1[i++];
             }
         }
