@@ -16,7 +16,7 @@ namespace AlgorithmPracticeDev.Unit_2
             }
             RunMerge(data);
             Console.WriteLine("Integer Array Output");
-            for (int e = 0; e < data.Length; e++)
+            for (int e = 0; e < data.Length -1; e++)
             {
                 Console.WriteLine(data[e]);
             }

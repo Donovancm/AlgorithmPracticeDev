@@ -25,7 +25,6 @@ namespace AlgorithmPracticeDev.Unit_5
                         stack.Push(i);
                     }
                 }
-
             }
         }
         public static void DFSAlgorithmPrint()

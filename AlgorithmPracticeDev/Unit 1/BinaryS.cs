@@ -9,7 +9,7 @@ namespace AlgorithmPracticeDev.Unit_1
         public static void BinaryPrint()
         {
             int[] data = new int[] { 10, 11, 12, 14, 19, 25, 35, 40 };
-            BinaryS.BinarySearch(data, 0, 7, 12);
+            BinarySearch(data, 0, (data.Length - 1), 11);
             int result = BinaryS.BinarySearchIterative(data, 40);
             if (result == -1)
             {
